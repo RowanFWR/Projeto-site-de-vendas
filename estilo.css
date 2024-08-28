@@ -28,7 +28,7 @@ header#cabecalho {
     height: 170px;
     margin-left: -10px;
     margin-right: -10px;
-    background: url(Banner/ Midias/ sociais/ -/ Copia.jpg") no-repeat 0px 10px;
+    background: url("Banner\ Midias\ sociais\ -\ Copia.jpg") no-repeat 0px 10px;
 }
 
 header#cabecalho h1 {
