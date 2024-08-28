@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+body {
+    background-color: hsla(163, 74%, 30%, 0.8);
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+div#interface {
+    width: 1010px;
+    background-color:antiquewhite;
+    margin: 0px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 850px;
+    top: 10px;
+}
+
+header#cabecalho {
+    border-bottom: 5px #606060 solid;
+    height: 170px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background: url("../_imagens/Banner\ Midias\ sociais\ -\ Copia.jpg") no-repeat 0px 10px;
+}
+
+header#cabecalho h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:#0444a3;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    padding: 0px;
+    margin-top: -20px;
+}
+
+header#cabecalho h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #888;
+    padding: 0px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+/* Formatação de imagens com legendas */
+
+figure.foto-legenda {
+    position: relative;
+    border: 3px solid white;
+    box-shadow: 1px 1px 3px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
+}
+
+.centralizar-imagem {
+  text-align: center; /* Alinha o conteúdo do div ao centro horizontalmente */
+}
+
+.centralizar-imagem img {
+  display: block; /* Faz com que a imagem seja exibida como um bloco para aplicar margens automaticamente */
+  margin: 0 auto; /* Define margens automáticas para alinhar a imagem horizontalmente */
+}
+
+figure.foto-legenda-postagens {
+    position: relative;
+    border: 3px solid white;
+    box-shadow: 1px 1px 3px black;
+}
+
+figure.foto-legenda-postagens img {
+    width: 30%;
+    height: 30%;
+}
+
+figure.foto-legenda-postagens figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda-postagens:hover figcaption {
+    opacity: 1;
+}
+
+
+.container {
+    max-width: 300px; /* Defina o tamanho máximo para o contêiner conforme necessário */
+    margin: 0 auto; /* Centralize o contêiner na página */
+}
+  
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.image-container figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo da legenda (pode ajustar a opacidade conforme necessário) */
+    color: #fff; /* Cor do texto da legenda */
+    padding: 8px;
+    text-align: center;
+    opacity: 0; /* Inicialmente, tornamos a legenda transparente */
+    transition: opacity 0.3s ease; /* Adicionamos uma transição suave para a propriedade de opacidade */
+}
+  
+.image-container:hover figcaption {
+    opacity: 1; /* Quando o mouse passa sobre a imagem, tornamos a legenda visível */
+}
+  
+
+
+/*Formatação do menu*/
+
+nav#menu {
+    display: block;
+    /*position: relative;
+    top: -220px;
+    left: 10px;*/
+}
+
+nav#menu ul {
+    list-style: none;   
+    position: absolute;
+    top: 100px;
+    left: 108px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: rgba(180, 85, 22, 0.925);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color:brown;
+}
